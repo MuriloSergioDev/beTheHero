@@ -30,7 +30,7 @@ export default function NewIncident(props) {
             })
             history.push('/profile');
         } catch{
-
+            alert('Erro ao criar novo caso, tente novamente.');
         }
     }
 
